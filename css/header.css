@@ -1,0 +1,29 @@
+.header {
+    background: url("../img/img.png"), url("../img/img.jpg");
+    background-size: cover;
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+    /* margin: 0 auto; */
+    /* background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    left: 0; */
+}
+.header__container {
+    /* max-width: 1170px;
+    margin: 0 auto; */
+    /* position: fixed;
+    top: 0; */
+}
+.header__wrapper {
+    /* position: fixed;
+    top: 0; */
+    max-width: 1170px;
+    margin: 0 auto;
+}
