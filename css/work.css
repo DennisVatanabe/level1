@@ -1,6 +1,5 @@
 .work__container {
     margin: 0 auto;
-    /* max-width: 1510px; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -56,9 +55,16 @@
     color: #FFFFFF;
     padding-top: 15px;
 }
-img {
+/* img {
     box-sizing: border-box;
-}
+} */
 @media (max-width : 1024px) {
-
+    .work__hover-title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .work__hover-subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
 }

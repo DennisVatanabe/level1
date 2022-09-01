@@ -7,13 +7,6 @@
     <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script type="module">
-        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
-        const swiper = new Swiper(...)
-    </script>
-    <script src="/script.js"></script>
     <title>Level_1</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -219,19 +212,77 @@ vel scelerisque nisl consectetur et.
     </section>
 
     <section class="testimonials" id="testimonials">
-
-        <div class="testimonials__container">
-            <div class="testimonials__img">
-                <img class="jpg" src="img/22sl.jpg" alt="">
-            </div>
-            <div class="testimonials__main">
-                <div class="testimonials__main-wrapper">
-                    <div class="testimonials__main-text">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</div>
-                    <div class="testimonials__main-info">Susan Sims, Interaction Designer at XYZ</div>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="testimonials__container">
+                        <div class="testimonials__img">
+                            <img class="jpg" src="img/22sl.jpg" alt="">
+                        </div>
+                        <div class="testimonials__main">
+                            <div class="testimonials__main-wrapper">
+                                <div class="testimonials__main-text">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</div>
+                                <div class="testimonials__main-info">Susan Sims, Interaction Designer at XYZ</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <div class="swiper-slide">
+                    <div class="testimonials__container">
+                        <div class="testimonials__img">
+                            <img class="jpg" src="img/010903.jpeg" alt="">
+                        </div>
+                        <div class="testimonials__main">
+                            <div class="testimonials__main-wrapper">
+                                <div class="testimonials__main-text">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</div>
+                                <div class="testimonials__main-info">Susan Sims, Interaction Designer at XYZ</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonials__container">
+                        <div class="testimonials__img">
+                            <img class="jpg" src="img/010901.jpg" alt="">
+                        </div>
+                        <div class="testimonials__main">
+                            <div class="testimonials__main-wrapper">
+                                <div class="testimonials__main-text">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</div>
+                                <div class="testimonials__main-info">Susan Sims, Interaction Designer at XYZ</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonials__container">
+                        <div class="testimonials__img">
+                            <img class="jpg" src="img/010905.jpg" alt="">
+                        </div>
+                        <div class="testimonials__main">
+                            <div class="testimonials__main-wrapper">
+                                <div class="testimonials__main-text">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</div>
+                                <div class="testimonials__main-info">Susan Sims, Interaction Designer at XYZ</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonials__container">
+                        <div class="testimonials__img">
+                            <img class="jpg" src="img/010904.jpg" alt="">
+                        </div>
+                        <div class="testimonials__main">
+                            <div class="testimonials__main-wrapper">
+                                <div class="testimonials__main-text">“Не понимаю, как некоторые мужчины хотят присутсвовать на родах, если на родах не хочу присутствовать даже я”</div>
+                                <div class="testimonials__main-info"> Александра Тужикова, Стоматолог, 3D-motion designer</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                ...
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
-        </div>
-        
     </section>
 
     <section class="download" id="download">
@@ -290,4 +341,12 @@ Beverly Hills, CA 90210
     </section>
 
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script type="module">
+    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+    const swiper = new Swiper(...)
+</script>
+<script src="/script.js"></script>
+
 </html>
