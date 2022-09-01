@@ -1,15 +1,18 @@
 .work__container {
     margin: 0 auto;
-    max-width: 1510px;
+    /* max-width: 1510px; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 .work__img {
-    max-width: 369px;
-    max-height: 340px;
     position: relative;
+    width: 25%;
+    height: 25%;
+}
+.work__img img {
+    width: 100%;
     border: solid 1px white;
 }
 .work__img:hover .work__hover {
@@ -55,4 +58,7 @@
 }
 img {
     box-sizing: border-box;
+}
+@media (max-width : 1024px) {
+
 }

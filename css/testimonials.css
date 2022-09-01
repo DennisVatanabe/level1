@@ -26,14 +26,14 @@ img.testimonials__img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 470px;
+    /* max-width: 470px; */
+    max-width: 62%;
     text-align: start;
     left: 0;
 }
 .testimonials__main-text {
     font-family: 'Cardo';
     font-style: italic;
-    font-weight: 400;
     font-size: 36px;
     line-height: 49px;
     display: flex;
@@ -45,7 +45,6 @@ img.testimonials__img {
 }
 .testimonials__main-info {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 13px;
     line-height: 15px;
@@ -60,4 +59,14 @@ img.testimonials__img {
 }
 img.jpg {
     width: 100%;
+}
+@media (max-width : 1024px) {
+    .testimonials__main-text {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .testimonials__main-info {
+        font-size: 12px;
+        line-height: 14px;
+    }
 }

@@ -6,10 +6,13 @@
     padding-top: 114px;
 }
 .team__card {
-    max-width: 270px;
-    max-height: 620px;
+    max-width: 23%;
+    max-height: 50%;
     display: flex;
     flex-direction: column;
+}
+.team__card-img img {
+    width: 100%;
 }
 .team__card-name {
     font-family: 'Raleway';
@@ -50,4 +53,26 @@
 .team__card-social img:hover {
     transform: scale(1.2);
     transition: 0.5s;
+}
+@media (max-width : 1024px) {
+    .team__container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .team__card-name {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .team__card-place {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .team__card-text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    a img {
+        max-width: 33px;
+    }
 }

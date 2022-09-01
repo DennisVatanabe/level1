@@ -77,12 +77,13 @@
     text-align: center;
     color: #FFFFFF;
     padding-top: 30px;
-    max-width: 1000px;
+    /* max-width: 1000px; */
+    max-width: 86%;
     margin: 0 auto;
 }
 .banner__button button {
     margin: 0 auto;
-    width: 370px;
+    width: 31.5%;
     height: 78px;
     font-family: 'Raleway';
     font-style: normal;
@@ -107,4 +108,20 @@
 }
 .banner__button {
     padding-bottom: 120px;
+}
+@media (max-width : 1024px) {
+    .banner__container {
+        max-width: 984px;
+    }
+    .banner__header::after {
+        width: 984px;
+    }
+    .banner__title {
+        font-size: 48px;
+        line-height: 56px;
+    }
+    .banner__subtitle {
+        font-size: 18px;
+        line-height: 21px;
+    }
 }

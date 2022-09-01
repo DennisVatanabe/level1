@@ -64,8 +64,6 @@
     max-width: 370px;
     margin: 0 auto;
     font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     display: flex;
@@ -79,4 +77,30 @@
 }
 .footer__copyright-main span {
     color: #FFFFFF;
+}
+
+@media (max-width : 1024px) {
+    .footer__container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .footer__items-location-title, .footer__social-title, .footer__about-title {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .footer__items-location-subtitle, .footer__about-info {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .footer__about-info {
+        width: 315px;
+    }
+    .footer__social-title {
+        padding-bottom: 35px;
+    }
+    .footer__copyright-main {
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 314px;
+    }
 }
