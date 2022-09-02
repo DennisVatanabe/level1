@@ -55,9 +55,6 @@
     color: #FFFFFF;
     padding-top: 15px;
 }
-/* img {
-    box-sizing: border-box;
-} */
 @media (max-width : 1024px) {
     .work__hover-title {
         font-size: 18px;
