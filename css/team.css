@@ -29,7 +29,6 @@
 .team__card-place {
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     display: flex;
@@ -41,7 +40,6 @@
 .team__card-text {
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     display: flex;
@@ -74,5 +72,44 @@
     }
     .team__container a img {
         max-width: 33px;
+    }
+}
+@media (max-width: 768px) {
+    .team__container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .team__card {
+        max-width: 95%;
+    }
+    .team__card-img {
+        overflow: hidden;
+    }
+    .team__card-img img {
+        transform: scale(1.2);
+    }
+    .team__card-name {
+        font-size: 5vw;
+        padding-top: 10%;
+        padding-bottom: 4%;
+    }
+    .team__card-place {
+        font-size: 3.8vw;
+        padding-bottom: 10%;
+    }
+    .team__card-text {
+        font-size: 4.5vw;
+        line-height: 120%;
+        padding-bottom: 10%;
+    }
+    .team__card-social {
+        padding-bottom: 15%;
+    }
+    .team__card-social img {
+        transform: scale(2.8);
+        margin: 5%;
+    }
+    .team__card-social img:hover {
+        transform: scale(3.2);
     }
 }
