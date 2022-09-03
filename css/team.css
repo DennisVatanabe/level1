@@ -106,10 +106,10 @@
         padding-bottom: 15%;
     }
     .team__card-social img {
-        transform: scale(2.8);
+        transform: scale(2);
         margin: 5%;
     }
     .team__card-social img:hover {
-        transform: scale(3.2);
+        transform: scale(2.2);
     }
 }

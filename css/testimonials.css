@@ -92,19 +92,19 @@ img.jpg {
         width: 295%;
     }
     .testimonials__main-wrapper {
-        max-width: 770px;
+        max-width: 95%;
         text-align: center;
     }
     .testimonials__main-text {
-        font-size: 8vw;
+        font-size: 7.5vw;
         line-height: 150%;
-        max-width: 720px;
-        padding-top: 10%;
-        padding-bottom: 12%;
+        max-width: 31%;
+        padding-top: 3%;
+        padding-bottom: 2%;
     }
     .testimonials__main-info {
-        font-size: 4vw;
-        padding-bottom: 35%;
+        font-size: 3vw;
+        padding-bottom: 5%;
         line-height: 40px;
     }
     .swiper .swiper-pagination {
