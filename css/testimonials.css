@@ -115,4 +115,11 @@ img.jpg {
         width: 30px;
         height: 30px;
     }
+    .swiper .swiper-pagination-bullet {
+        width: 5vw;
+        height: 5vw;
+        line-height: 20px;
+        font-size: 6vw;
+        background: #5C3249;
+    }
 }
