@@ -93,7 +93,7 @@
         line-height: 16px;
     }
     .footer__about-info {
-        width: 315px;
+        max-width: 315px;
     }
     .footer__social-title {
         padding-bottom: 35px;
@@ -110,42 +110,53 @@
         max-width: 100%;
     }
     .footer__container {
+        padding-left: 0;
+        padding-right: 0;
         padding-top: 0;
-        width: 95%;
+        width: 96vw;
     }
     .footer__items {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 100%;
+        width: 96vw;
         margin: 0 auto;
         align-items: center;
+    }
+    .footer__items-location {
+        max-width: 96vw;
     }
     .footer__items-location-title, .footer__social-title, .footer__about-title {
         font-size: 5vw;
         margin-top: 12vw;
-        width: 100%;
+        width: 96vw;
         padding-bottom: 10vw;
     }
     .footer__items-location-subtitle, .footer__about-info {
-        font-size: 4vw;
+        font-size: 4.5vw;
         line-height: 5vw;
-        width: 100%;
+        max-width: 94vw;
         display: flex;
         justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .footer__items-location-subtitle {
-        width: 770px;
+        max-width: 96vw;
         padding-bottom: 12vw;
     }
     .footer__about {
-        max-width: 100%;
+        max-width: 96vw;
+    }
+    .footer__social-icons {
+        display: flex;
+        justify-content: center;
     }
     .footer__social-title {
         padding-bottom: 14vw;
     }
     .social__icon {
-        margin: 2vw;
+        margin: 3vw;
     }
     .social__icon img {
         width: 12vw;
@@ -154,7 +165,7 @@
         padding-top: 10vw;
     }
     .footer__copyright-main {
-        max-width: 96%;
+        max-width: 96vw;
         font-size: 4.5vw;
         line-height: 6vw;
         margin-top: 9vw;
