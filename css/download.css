@@ -44,6 +44,7 @@
     width: 31.5%;
     height: 78px;
     justify-content: center;
+    cursor: pointer;
 }
 .download__button:hover {
     background: #E71414;
