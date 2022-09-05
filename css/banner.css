@@ -47,6 +47,7 @@
     color:white;
     width: 134px;
     padding-bottom: 35px;
+    border-bottom: solid 3px transparent;
 }
 .banner__header-nav a:hover {
     border-bottom: solid 3px #BABBC5;
@@ -185,13 +186,14 @@
     .banner__header-nav a {
         color:white;
         width: 100%;
-        padding-top: 10vw;
+        margin-top: 11.2vw;
+        border-bottom: none;
     }
     .banner__header-nav a:hover {
-        display: none;
+        border-bottom: none;
     }
     .banner__header-nav a:active {
-        display: none;
+        border-bottom: none;
     }
     .banner__header-wrapper {
         display: flex;
