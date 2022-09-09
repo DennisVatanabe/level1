@@ -94,6 +94,7 @@ img.jpg {
     .testimonials__main-wrapper {
         max-width: 95%;
         text-align: center;
+        align-items: center;
     }
     .testimonials__main-text {
         font-size: 7.5vw;
