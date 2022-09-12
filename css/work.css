@@ -33,6 +33,7 @@
     align-items: center;
     justify-content: center;
     background: rgba(255, 67, 67, 0.8);
+    transition: 0.5s;
 }
 .work__hover-title {
     font-family: 'Raleway';
